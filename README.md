@@ -40,6 +40,7 @@ int begin(void);
 /**
  * @brief 读取空气中有害气体的浓度.
  * @return 返回读取到的VOC浓度值，单位是ppm.
+ * @n       ppm的含义
  */
 float readVocPPM();
     
